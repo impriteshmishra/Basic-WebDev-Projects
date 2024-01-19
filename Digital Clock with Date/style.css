@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #260a47;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.ClockandDate {
+    color: #f7f7f7;
+    background: linear-gradient(#659ab5, #e47dbe);
+    font-family: 'Poppins', sans-serif;
+    /* width: 400px; */
+    /* height: 70px; */
+    padding: 15px 10ox;
+    border: 1px solid  #38AECC;
+    border-radius: 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255,0.1));
+
+}
+.ClockandDate:hover{
+    background: linear-gradient(#e47dbe,#659ab5);
+    box-shadow: 0 0 30px #659ab5;
+    cursor:grab;
+}
+
+.Date {
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+    letter-spacing: 4px;
+    /* word-spacing: 40px; */
+    display: flex;
+    /* align-items: center ; */
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.Clock {
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Clock span:not(:last-child) {
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.Clock span:last-child{
+    font-size: 25px;
+    background: #32a2be;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
