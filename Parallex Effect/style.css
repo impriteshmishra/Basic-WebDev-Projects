@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 110vh;
+    display: grid;
+    align-self: start;
+    place-items: center;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 65px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+}
+.sec1{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image:
+        url(src/wp8178019.jpg);
+    background-attachment: fixed;
+}
+
+.sec2 {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("/src/gettyimages-110022758-1024x1024.jpg");
+
+    background-attachment: fixed;
+}
+
+.sec3 {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("/src/gettyimages-111146258-1024x1024.jpg");
+
+    background-attachment: fixed;
+}
+.sec4{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("/src/desktop-wallpaper-virat-kohli-in-cricket-world-cup-2019-virat-8k.jpg");
+
+    background-attachment: fixed;
+}
+.sec5{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image:
+        url("/src/gettyimages-1408241356-2048x2048.jpg");
+    background-attachment: fixed;
+}
