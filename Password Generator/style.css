@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( to  bottom,
+         #4545d8,#e8e7df);
+    color: #fff;
+
+}
+.container{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 30px 30px;
+    display: flex;
+    font-weight: 800;
+    flex-direction:column;
+    background: transparent;
+    box-shadow: 5px 5px 0px #424769,5px 5px 0px #7077A1;
+}
+.container h2{
+    margin-block: 8px;
+    font-size: 1.7rem;
+    
+}
+.inputBox{
+     position: relative;
+}
+.inputBox i{
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: #424769;
+    font-size: 20px;
+    cursor: pointer;
+}
+.input{
+    background-color:aliceblue;
+    outline:none;
+    border: none;
+    border-radius: 2px;
+    padding: 9px;
+    width: 280px;
+    font-size: 20px;
+    margin-block: 10px;
+}
+.slide{
+    display: flex;
+    margin-block: 10px;
+}
+.slide p, .slide label{
+    flex-basis: 100%;
+    font-size: 17px;
+}
+.slide input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.button{
+    border: none;
+    outline: none;
+    background-color: #544fd1;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 20px;
+    margin-block:8px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover{
+     background-color: #424769;
+}
