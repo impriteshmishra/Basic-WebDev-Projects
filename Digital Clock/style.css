@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #260a47; */
+    background: linear-gradient(#64e0e6, #9f91e5);
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f7f7f7;
+    background: linear-gradient(#75afcb, #ba87e3);
+    font-family: 'Poppins', sans-serif;
+    /* width: 400px; */
+    /* height: 70px; */
+    padding:20px;
+    width: 100%;
+    max-width: 400px;
+    height: 24vh;
+    border: 1px solid  #38AECC;
+    border-radius: 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255,0.2));
+
+}
+.clock:hover{
+    background: linear-gradient( #ba87e3,#75afcb);
+    box-shadow: 0 0 30px #659ab5;
+    cursor:grab;
+}
+.clock h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.clock span{
+    position: relative;
+    top: -13%;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 1.5rem;
+    /* background: #6489c4; */
+    /* border-radius: 5px; */
+}
+
+@media screen and (max-width:274px) {
+    .clock{
+        max-width: 210px;
+        padding: 5px;
+    }
+    .clock h1{
+        font-size: 1.9rem;
+    }
+    .clock span{
+        position: relative;
+        padding-top: 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:275px) and (max-width:400px) {
+    .clock{
+        max-width: 260px;
+        padding: 5px;
+    }
+    .clock h1{
+        font-size: 2.4rem;
+    }
+}
