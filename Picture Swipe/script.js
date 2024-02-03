@@ -16,5 +16,5 @@ backbtn.addEventListener("click", ()=>{
 forwardbtn.addEventListener("click", ()=>{
     imagegallery.style.scrollBehavior="smooth";
     imagegallery.scrollLeft-=500;
-})
+});
 
