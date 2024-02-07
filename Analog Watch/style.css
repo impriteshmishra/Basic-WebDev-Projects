@@ -1,0 +1,158 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.clock-dial{
+     width: 500px;
+     height: 500px;
+    border: 20px solid #7d4c1e ;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    background: #ff7b00ae ;
+}
+.point{
+    width: 20px;
+    height: 20px;
+    background-color:  #7d4c1e;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+.hour{
+    font-size: 30px;
+    font-weight: bold;
+    color: #7d4c1e;
+    position: absolute;
+}
+.h-1{
+   top: 40px;
+   right: 130px;
+}
+.h-2{
+    top: 125px;
+    right: 45px;
+ }
+ .h-3{
+    top: 235px;
+    right: 10px;
+ }
+ .h-4{
+    top: 345px;
+    right: 45px;
+ }
+ .h-5{
+    top: 430px;
+    right: 130px;
+ }
+ .h-6{
+    bottom: 10px;
+    left: 240px;
+ }
+ .h-7{
+    top: 430px;
+    left: 130px;
+ }
+ .h-8{
+    top: 345px;
+    left: 45px;
+ }
+ .h-9{
+    top: 235px;
+    left: 10px;
+ }
+ .h-10{
+    top: 125px;
+    left: 45px;
+ }
+ .h-11{
+    top: 40px;
+    left: 130px;
+ }
+ .h-12{
+    top: 15px;
+    left: 235px;
+ }
+ .name{
+    font-size: 20px;
+    font-weight: bold;
+    color:  #7d4c1e;
+    position: relative;
+    top: 90px;
+    left: 44.5%;
+ }
+ .name i{
+    margin-left: 5px;
+ }
+ .minute-hand-wraper{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+ }
+ .minute-hand{
+position: relative;
+ }
+ .min-hand{
+    width: 4px;
+    height: 200px;
+    background-color: #7d4c1e;
+    position: absolute;
+    left: 198px;
+}
+.min-arrow{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #7d4c1e;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 192px;
+    top: -7px;
+}
+.hour-hand-wraper{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+.hour-hand{
+    position: relative;
+}
+.hr-hand{
+    width: 4px;
+    height: 150px;
+    background-color:  #7d4c1e;
+    position: absolute;
+    left: 148px;
+}
+.hr-arrow{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #7d4c1e;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 142px;
+    top: -7px;
+}
+.second-hand-wraper{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    border-radius: 50%;
+}
+.second-hand{
+    position: relative;
+}
+.sec-hand{
+    width: 2px;
+    height: 175px;
+    background-color: #7d4c1e;
+    position: absolute;
+    left: 174px;
+}
